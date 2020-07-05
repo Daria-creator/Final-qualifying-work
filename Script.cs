@@ -57,17 +57,9 @@ public void AudioVolume(float sliderValue)
         Debug.Log(sliderValue);
     }
 
-//Функция для сохранения измененных настроек
+    //Функция для сохранения измененных настроек
 public void SaveSettings()
-{
-    SceneManager.LoadScene("Menu");
-  
-}
-   /* public AudioMixer am; //ссылка на AudioMixer
-
-    public void AudioVolume(float sliderValue)
     {
-        //Метод SetFloat принимает значенияслайдера и присваивает это значение параметру “masterVolume”.
-        am.SetFloat("masterVolume", sliderValue);
-    }*/
+      SceneManager.LoadScene("Menu");  
+    }
 }
